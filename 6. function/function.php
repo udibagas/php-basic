@@ -89,4 +89,4 @@ function factorial($number)
 }
 
 $hasil = factorial(5);
-echo "Hasil = " . $hasil;
+echo "Hasilnya adalah " . $hasil;
