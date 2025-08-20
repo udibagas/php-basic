@@ -18,3 +18,6 @@ $a /= 3; // 15
 echo $a . "\n";
 $a %= 4; // 3
 echo $a . "\n";
+
+$a++; // $a = $a + 1; increment
+$a--; // $a = $a - 1; decrement
