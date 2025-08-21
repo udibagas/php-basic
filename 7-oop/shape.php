@@ -7,11 +7,16 @@ interface IShape
   public function getCircumference();
 }
 
-
-abstract class Shape implements IShape
+trait ShapeTrait
 {
   public $area;
   public $circumference;
+}
+
+
+abstract class Shape implements IShape
+{
+  use ShapeTrait;
 
   public function getArea()
   {
