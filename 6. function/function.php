@@ -56,7 +56,7 @@ function subtract(int $a, int $b): int
 
 // named argument
 $x = subtract(b: 80, a: 70);
-echo $x;
+// echo $x;
 
 
 function kali10(int $number): int
