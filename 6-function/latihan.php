@@ -1,6 +1,5 @@
 <?php
 
-
 function getGradeByScore(int | float $score): string
 {
   // validation

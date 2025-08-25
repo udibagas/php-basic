@@ -41,7 +41,7 @@ $x = add(10, 30); // 40
 // echo $x;
 
 // fungsi dengan typed parameter & return
-function add1(int $a, int $b): int
+function add1(int | float $a, int | float $b): int | float
 {
   return $a + $b;
 }
